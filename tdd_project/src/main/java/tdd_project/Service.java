@@ -1,7 +1,5 @@
 package tdd_project;
 
-import java.util.ArrayList;
-
 public class Service {
 
     public String getNthUpperCharacter(String string, int n) {
@@ -16,8 +14,7 @@ public class Service {
                 result.append(string.charAt(i));
             }
         }
-
-        System.out.println("result is: " + result);
+        //System.out.println("result is: " + result);
         return result.toString();
     }
 }
