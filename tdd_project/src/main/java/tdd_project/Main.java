@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Service service = new Service();
-        service.getNthUpperCharacter("!ITCLiNicAl", 1);
+        service.getNthUpperCharacter("ItCLINiCAL", 1);
 
     }
 }
