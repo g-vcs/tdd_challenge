@@ -16,7 +16,7 @@ public class Service {
                 result.append(string.charAt(i));
             }
         }
-//        System.out.println("result is: " + result);
+
         return result.toString();
     }
 }
